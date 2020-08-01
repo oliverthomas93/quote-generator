@@ -18,8 +18,11 @@ const roosevelt = new Quote('Eleanor Roosevelt', "If life were predictable it wo
 const winfrey = new Quote('Oprah Winfrey', "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.");
 const cameron = new Quote('James Cameron', "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.");
 const lennon = new Quote('John Lennon', "Life is what happens when you're busy making other plans.");
+const teresa = new Quote('Mother Teresa', "Spread love everywhere you go. Let no one ever come to you without leaving happier.");
+const mead = new Quote('Margaret Mead', "Always remember that you are absolutely unique. Just like everyone else.");
+const franklin = new Quote('Benjamin Franklin', "Tell me and I forget. Teach me and I remember. Involve me and I learn.");
 
-let arr = [mandela, disney, jobs, roosevelt, winfrey, cameron, lennon];
+let arr = [mandela, disney, jobs, roosevelt, winfrey, cameron, lennon, teresa, mead, franklin];
 
 const randNum = () => {
     return Math.floor(Math.random() * arr.length);
