@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2ba8a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: #248282;
+    width: 700px;
+    text-align: center; 
+}
+button {
+    width: 180px;
+    padding: 10px;
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+    background-color: #616161;
+}
+button:hover {
+    background-color: #8b8b8b;
+}
+button:focus {
+    outline: none;
+}
+.quote {
+    margin: 10px;
+    font-size: 40px;
+    color: #2d3a3a;
+}
+.author {
+    margin: 30px 40px;
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+}
